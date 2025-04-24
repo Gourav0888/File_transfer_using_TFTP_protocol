@@ -1,0 +1,2 @@
+For client compilation--> gcc tftp_client.h tftp_client.c tftp.c tftp.h -o client
+For server compilation--> gcc tftp_server.c tftp.c tftp.h -o server
