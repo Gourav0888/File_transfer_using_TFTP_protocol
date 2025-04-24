@@ -53,11 +53,9 @@ This project implements a lightweight **Remote File Transfer** system based on t
 ## 🚀 Compile & Run
 1. For client compilation --> `gcc tftp_client.h tftp_client.c tftp.c tftp.h -o client`.
 2. For server compilation --> `gcc tftp_server.c tftp.c tftp.h -o server`.
-3. Then provide --> `./client` for client and `./server` for server.
-
 
 # Run Server
-./server <port>
+./server
 
 # Run Client
-./client <server_ip> <port>
+./client
